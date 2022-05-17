@@ -6,4 +6,4 @@ Uygulama basitçe sürenin dolmasını bekler ve sizin yerinize dersleri otomati
 İsterseniz derslere daha sonra erişebildiğiniz için çalışma kaynaklarına olan erişim kilidi de kolayca açılır.
 
 ### Browser
-Bu uygulama web browser olarak Mozilla Firefox kullanmaktadır.
+Bu uygulama web browser olarak Mozilla Firefox kullanmaktadır. geckodriver.log dosyasını kullandığınız browser'a göre kendiniz implemente etmelisiniz.
