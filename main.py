@@ -9,7 +9,9 @@ username = input("T.C. Kimlik No: ")
 password = input("e-Devlet Şifresi: ")
 
 #define driver
-driver = webdriver.Firefox(executable_path=r'C:\Users\baris\.wdm\drivers\geckodriver\win64\v0.29.1\geckodriver.exe')
+#Firefox için geckodriver.exe engine konumunun C'den itibaren path verilmesi gerekmektedir.
+#Chrome veya diğer tarayıcılar için çalışma yapmadım.
+driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 
 #go to adbs page
 driver.get("https://adbs.uab.gov.tr/login")
